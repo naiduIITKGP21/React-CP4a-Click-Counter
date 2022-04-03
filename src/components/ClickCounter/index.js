@@ -13,13 +13,14 @@ class ClickCounter extends Component {
 
   render() {
     const {count} = this.state
+    console.log(count)
 
     return (
       <div className="bg-container">
         <div className="content-container">
           <h1 className="heading">
             The Button has been clicked
-            <span className="count">{count}</span> times
+            <br /> <span className="count">{count}</span> times
           </h1>
           <p className="description">click the button to increase the count</p>
           <button
