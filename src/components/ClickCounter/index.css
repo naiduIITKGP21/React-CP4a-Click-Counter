@@ -1,1 +1,37 @@
 /* Write your CSS here */
+.bg-container {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.heading {
+  font-size: 30px;
+  font-weight: 700;
+  color: #2d3a35;
+}
+.count {
+  color: #c20a72;
+}
+.description {
+  font-size: 18px;
+  color: #2d3a35;
+}
+
+.click-me-button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  width: 80px;
+  border-radius: 8px;
+  border: 0;
+}
